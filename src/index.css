@@ -1,2 +1,73 @@
 @import "tailwindcss";
 
+/* page background colours and structure*/
+.page-background-gradients {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #e0e7ff, #ede9fe, #f3e8ff);
+  padding: 4rem 1.5rem; 
+}
+
+/* hold intro/overview information */
+.large-information-box {
+  background-color: white;
+  border-radius: 24px;
+  max-width: 768px;
+  margin: 0 auto 4rem auto; 
+  padding: 2.5rem; 
+  text-align: center;
+}
+
+
+.heading-1 {
+  font-size: 49px;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+.heading-2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #7c3aed;
+  margin-bottom: 1.7rem;
+}
+
+/* main information text */ 
+.main-info-text {
+  font-size: 18px;
+  color: rgb(46, 45, 45);
+  line-height: 1.75rem;
+}
+
+/* grid layout to put description of the three smaller pages in */
+.section-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  max-width: 1152px;
+  /* make sure its center with the larger information box: */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* small information box layout */
+.small-information-box {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0px 10px 10px lightgray;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.small-information-box:hover {
+  box-shadow: 0px 20px 20px gray;
+}
+
+.small-information-titles {
+  font-size: 25px;
+  font-weight: 600;
+  color: #4f46e5;
+  margin-bottom: 0.5rem;
+}
+
+
