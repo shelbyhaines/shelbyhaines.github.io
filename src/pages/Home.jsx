@@ -27,7 +27,8 @@ const Home = () => {
             Skills
           </h3>
           <p className="main-info-text">
-            write description
+            Click here to learn about my work experience, 
+            along with the coding languages I use.
           </p>
         </div>
 
@@ -36,7 +37,8 @@ const Home = () => {
             Interests
           </h3>
           <p className="main-info-text">
-            write description
+            Click here to learn about my interests outside of school, 
+            including nature and baking.
           </p>
         </div>
 
@@ -45,7 +47,8 @@ const Home = () => {
             Contact
           </h3>
           <p className="main-info-text">
-            write description 
+            Click here to get in touch with me and access links to 
+            my GitHub and LinkedIn profiles.
           </p>
         </div>
       </div>
