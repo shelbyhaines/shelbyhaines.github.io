@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+
 const Home = () => {
   return (
     <div className="page-background-gradients">
@@ -33,6 +36,7 @@ const Home = () => {
         </div>
 
         <div className="small-information-box">
+          <Link to="/interests">
           <h3 className="small-information-titles">
             Interests
           </h3>
@@ -40,6 +44,7 @@ const Home = () => {
             Click here to learn about my interests outside of school, 
             including nature and baking.
           </p>
+          </Link>
         </div>
 
         <div className="small-information-box">
