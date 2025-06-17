@@ -48,6 +48,7 @@ const Home = () => {
         </div>
 
         <div className="small-information-box">
+          <Link to="/contact">
           <h3 className="small-information-titles">
             Contact
           </h3>
@@ -55,6 +56,7 @@ const Home = () => {
             Click here to get in touch with me and access links to 
             my GitHub and LinkedIn profiles.
           </p>
+          </Link>
         </div>
       </div>
       
