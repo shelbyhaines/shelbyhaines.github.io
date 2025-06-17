@@ -12,7 +12,7 @@ const Interests = () => {
       </section>
 
       {/* box (nature interest) */}
-      <section className="interest-box min-h-[350px]">
+      <section className="interest-box min-h-[350px] flex flex-col md:flex-row items-center gap-8">
         <div>
           <h2 className="heading-2">
             Nature
@@ -21,10 +21,12 @@ const Interests = () => {
             description here
           </p>
         </div>
+        <img src="/photos/IMG_7718.jpeg" className="images"/>
+        <img src="/photos/IMG_5527.jpeg" className="images"/>
       </section>
 
       {/* box (baking interest) */}
-      <section className="interest-box min-h-[350px]">
+      <section className="interest-box min-h-[350px] flex flex-col md:flex-row items-center gap-8">
         <div>
           <h2 className="heading-2">
             Baking
@@ -33,6 +35,8 @@ const Interests = () => {
             description
           </p>
         </div>
+        <img src="/photos/IMG_7032.jpeg" className="images"/>
+        <img src="/photos/IMG_4794.jpeg" className="images"/>
       </section>
     </div>
   );
