@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Interests from "./pages/Interests";
 import Contact from "./pages/Contact";
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/interests" element={<Interests />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
