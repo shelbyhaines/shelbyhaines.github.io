@@ -8,7 +8,8 @@ const Contact = () => {
             Contact Me & Learn More
         </h1>
         <p className="main-info-text">
-          description here
+          This page includes links to my professional profiles and other sites where you can learn more about my experiences. 
+          You’ll also find a way to get in touch with me!
         </p>
         </div>
       </section>
@@ -22,7 +23,8 @@ const Contact = () => {
                 LinkedIn
             </h2>
             <p className="main-info-text">
-                description.
+                Connect with me on LinkedIn to see my experience, network,
+                and get updates on my career progress.
             </p>
             <a 
             href="https://www.linkedin.com/in/shelbyhaines?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
@@ -39,7 +41,8 @@ const Contact = () => {
                 Resume
             </h2>
             <p className="main-info-text">
-                Description
+                View my resume to see a comprehensive summary of my 
+                education, skills, and experience.
             </p>
             <a href="https://drive.google.com/file/d/154yWXtHmy7GVqVQre01ETTO9LyOrD3W4/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button className="button">Click here</button>
@@ -52,7 +55,8 @@ const Contact = () => {
                 GitHub
             </h2>
             <p className="main-info-text">
-                Descripton
+                Check out my GitHub profile to explore my repositories,
+                and the code behind my class assignments.
             </p>
             <a href="https://github.com/shelbyhaines" target="_blank" rel="noopener noreferrer">
             <button className="button">Click here</button>
@@ -65,7 +69,8 @@ const Contact = () => {
                 SFU Website
             </h2>
             <p className="main-info-text">
-                Description
+                Learn more about my degree and university program through
+                the official SFU information page.
             </p>
             <a href="https://www.sfu.ca/students/calendar/2025/summer/programs/information-systems-in-business-administration-and-computing-science/joint-major/bachelor-of-business-administration-or-bachelor-of-science.html" 
             target="_blank" rel="noopener noreferrer">
@@ -73,13 +78,14 @@ const Contact = () => {
             </a>
         </div>
 
-        {/* Email */}
+        {/* volunteer */}
         <div className="contact-box h-60 flex flex-col justify-between">
             <h2 className="small-information-titles">
                 Volunteer Roles
             </h2>
             <p className="main-info-text">
-                Description
+                Discover more about the volunteer programs I have 
+                participated in and how I contributed.
             </p>
             <a href="https://young-sprout-117.notion.site/Volunteering-Programs-2155b60ba1ea808aadf4eb594435cf6c?source=copy_link"
             target="_blank" rel="noopener noreferrer">
@@ -93,7 +99,8 @@ const Contact = () => {
                 Send a Message
             </h2>
             <p className="main-info-text">
-                Description.
+                You can send me an email at srh11@sfu.ca, or you 
+                can send a message through this linked form.
             </p>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfeweuIa8NEUOw28673rfBuhz1O9gwwGg9cyjV_qBd2Kt_-ow/viewform?usp=dialog"
             target="_blank" rel="noopener noreferrer">
