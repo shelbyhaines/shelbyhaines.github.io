@@ -24,7 +24,7 @@ function Skills() {
 
         <div className="main-info-text text-left space-y-6">
           <div>
-            <p className="font-semibold text-indigo-700">
+            <p className="text-xl font-semibold text-indigo-700">
               Math Tutor <span className="font-normal text-gray-700">| Sep 2019 – Present</span>
             </p>
             <ul className="list-disc list-inside mt-1">
@@ -47,7 +47,7 @@ function Skills() {
         <div className="main-info-text text-left space-y-6">
           {/* YWCA */}
           <div>
-            <p className="font-semibold text-indigo-700">
+            <p className="text-xl font-semibold text-indigo-700">
               Youth Ambassador & Advisor | YWCA Metro Vancouver <span className="font-normal text-gray-700">| Fall 2019 – Fall 2021</span>
             </p>
             <ul className="list-disc list-inside mt-1">
@@ -58,7 +58,7 @@ function Skills() {
 
           {/* case competition */}
           <div>
-            <p className="font-semibold text-indigo-700">
+            <p className="text-xl font-semibold text-indigo-700">
               1st Place | Achieve Case Competition (SFU Accounting Student Association) <span className="font-normal text-gray-700">| Nov 2023</span>
             </p>
             <ul className="list-disc list-inside mt-1">
@@ -69,7 +69,7 @@ function Skills() {
 
           {/* business fair */}
           <div>
-            <p className="font-semibold text-indigo-700">
+            <p className="text-xl font-semibold text-indigo-700">
               Volunteer | DiverseCity Entrepreneur & Small Business Fair <span className="font-normal text-gray-700">| Oct 2023</span>
             </p>
             <ul className="list-disc list-inside mt-1">
