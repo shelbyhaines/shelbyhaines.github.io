@@ -18,11 +18,11 @@ const Contact = () => {
         <section className="section-grid">
 
         {/* LinkedIn */}
-        <div className="contact-box h-60 flex flex-col justify-between">
+        <div className="contact-box flex flex-col justify-between min-h-[15rem]">
             <h2 className="small-information-titles">
                 LinkedIn
             </h2>
-            <p className="main-info-text">
+            <p className="main-info-text flex-grow">
                 Connect with me on LinkedIn to see my experience, network,
                 and get updates on my career progress.
             </p>
@@ -36,11 +36,11 @@ const Contact = () => {
         </div>
 
         {/* resume */}
-        <div className="contact-box h-60 flex flex-col justify-between">
+        <div className="contact-box flex flex-col justify-between min-h-[15rem]">
             <h2 className="small-information-titles">
                 Resume
             </h2>
-            <p className="main-info-text">
+            <p className="main-info-text flex-grow">
                 View my resume to see a comprehensive summary of my 
                 education, skills, and experience.
             </p>
@@ -50,11 +50,11 @@ const Contact = () => {
         </div>
 
         {/* GitHub */}
-        <div className="contact-box h-60 flex flex-col justify-between">
+        <div className="contact-box flex flex-col justify-between min-h-[15rem]">
             <h2 className="small-information-titles">
                 GitHub
             </h2>
-            <p className="main-info-text">
+            <p className="main-info-text flex-grow">
                 Check out my GitHub profile to explore my repositories,
                 and the code behind my class assignments.
             </p>
@@ -64,11 +64,11 @@ const Contact = () => {
         </div>
 
         {/* SFU website */}
-        <div className="contact-box h-60 flex flex-col justify-between">
+        <div className="contact-box flex flex-col justify-between min-h-[15rem]">
             <h2 className="small-information-titles">
                 SFU Website
             </h2>
-            <p className="main-info-text">
+            <p className="main-info-text flex-grow">
                 Learn more about my degree and university program through
                 the official SFU information page.
             </p>
@@ -79,11 +79,11 @@ const Contact = () => {
         </div>
 
         {/* volunteer */}
-        <div className="contact-box h-60 flex flex-col justify-between">
+        <div className="contact-box flex flex-col justify-between min-h-[15rem]">
             <h2 className="small-information-titles">
                 Volunteer Roles
             </h2>
-            <p className="main-info-text">
+            <p className="main-info-text flex-grow">
                 Discover more about the volunteer programs I have 
                 participated in and how I contributed.
             </p>
@@ -94,11 +94,11 @@ const Contact = () => {
         </div>
 
         {/* message */}
-        <div className="contact-box h-60 flex flex-col justify-between">
+        <div className="contact-box flex flex-col justify-between min-h-[15rem]">
             <h2 className="small-information-titles">
                 Send a Message
             </h2>
-            <p className="main-info-text">
+            <p className="main-info-text flex-grow">
                 You can send me an email at srh11@sfu.ca, or you 
                 can send a message through this linked form.
             </p>
