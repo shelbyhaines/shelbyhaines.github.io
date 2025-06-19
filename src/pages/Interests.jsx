@@ -31,8 +31,17 @@ const Interests = () => {
             in some of the streams.
           </p>
         </div>
-        <img src="/photos/IMG_7718.jpeg" className="images"/>
-        <img src="/photos/IMG_5527.jpeg" className="images"/>
+        <img src="/photos/IMG_7718.jpeg" className="images"
+        alt=" A low-angle shot looking up at tall, leafy green trees that line a 
+        narrow, unpaved path. The sky can be seen behind the leaves of the trees and is
+        a soft blue with hints of pink near the horizon. The path recedes into the
+        distance, surrounded by more green trees and bushes."/>
+
+        <img src="/photos/IMG_5527.jpeg" className="images"
+        alt="A narrow, unpaved path winds through a green forest under a cloudy, 
+        overcast sky. The path is bordered by tall grass, various green plants, and 
+        some small yellow flowers. Taller trees are visible in the background, 
+        including some evergreen trees."/>
       </section>
 
       {/* box (baking interest) */}
@@ -52,8 +61,19 @@ const Interests = () => {
             with my favourite being a mint chocolate cake.
           </p>
         </div>
-        <img src="/photos/IMG_7032.jpeg" className="images"/>
-        <img src="/photos/IMG_4794.jpeg" className="images"/>
+        <img src="/photos/IMG_7032.jpeg" className="images" 
+        alt="A top-down view of two wire cooling racks filled with chocolate 
+        cupcakes topped with white frosting. The top rack displays cupcakes 
+        decorated with green frosted Christmas trees. The bottom rack displays 
+        cupcakes decorated to look like Santa Claus faces, with white frosting for 
+        the faces and red frosting for the hats."/>
+
+        <img src="/photos/IMG_4794.jpeg" className="images"
+        alt="A three-tiered metal cupcake stand holds chocolate cupcakes 
+        with chocolate frosting, some with plain swirled icing and others with more intricate 
+        rose-like icing designs. More chocolate cupcakes are arranged on the white surface 
+        table around the base of the stand. A small, bronze-colored Eiffel Tower figurine 
+        is visible in the background on the left."/>
       </section>
     </div>
   );
