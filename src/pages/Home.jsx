@@ -26,38 +26,41 @@ const Home = () => {
 
       <div className="section-grid">
         <div className="small-information-box">
-          <Link to="/skills">
           <h3 className="small-information-titles">
             Skills
           </h3>
           <p className="main-info-text">
-            Click here to learn about my work experience, 
+            Learn about my work experience, 
             along with the coding languages I use.
           </p>
+          <Link to="/skills">
+            <button className="button">View Skills</button>
           </Link>
         </div>
 
         <div className="small-information-box">
-          <Link to="/interests">
           <h3 className="small-information-titles">
             Interests
           </h3>
           <p className="main-info-text">
-            Click here to learn about my interests outside of school, 
+            Find out about my interests outside of school, 
             including nature and baking.
           </p>
+          <Link to="/interests">
+            <button className="button">View Interests</button>
           </Link>
         </div>
 
         <div className="small-information-box">
-          <Link to="/contact">
           <h3 className="small-information-titles">
             Contact
           </h3>
           <p className="main-info-text">
-            Click here to get in touch with me and access links to 
+            Get in touch with me and access links to 
             my GitHub and LinkedIn profiles.
           </p>
+          <Link to="/contact">
+           <button className="button">Contact Me</button>
           </Link>
         </div>
       </div>
