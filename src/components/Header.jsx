@@ -1,3 +1,5 @@
+import NavBar from "./NavBar";
+
 function Header() {
   return (
     <header style={{ backgroundColor: '#6366f1' }} className="text-white shadow-sm">
@@ -5,6 +7,7 @@ function Header() {
         <h1 className="text-2xl font-semibold">
           Personal Portfolio  |  Shelby Haines
         </h1>
+        <NavBar />
       </div>
     </header>
   );

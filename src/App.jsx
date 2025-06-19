@@ -5,10 +5,11 @@ import Contact from "./pages/Contact";
 import Skills from "./pages/Skills";
 import Header from './components/Header';
 import Footer from './components/Footer';
+import NavBar from "./components/NavBar";
 
 const App = () => {
   return (
-    <Router>
+    <>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,7 +18,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 };
 
