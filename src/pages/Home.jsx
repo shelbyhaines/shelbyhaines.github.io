@@ -26,6 +26,7 @@ const Home = () => {
 
       <div className="section-grid">
         <div className="small-information-box">
+          <Link to="/skills">
           <h3 className="small-information-titles">
             Skills
           </h3>
@@ -33,6 +34,7 @@ const Home = () => {
             Click here to learn about my work experience, 
             along with the coding languages I use.
           </p>
+          </Link>
         </div>
 
         <div className="small-information-box">
