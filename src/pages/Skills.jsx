@@ -8,10 +8,34 @@ function Skills() {
             Skills
         </h1>
         <p className="main-info-text">
-          description of page
+          This page highlights the skills I have developed throughout my academic and professional 
+          experiences. It also includes a section listing the programming languages 
+          and technologies I am familiar with.
         </p>
         </div>
       </section>
+
+
+      {/* work experience section */}
+      <section className="skills-box mt-12">
+        <h2 className="heading-2 text-center" style={{ marginBottom: '0rem' }}>
+          Work Experience
+        </h2>
+
+        <div className="main-info-text text-left space-y-6">
+          <div>
+            <p className="font-semibold text-indigo-700">
+              Math Tutor <span className="font-normal text-gray-700">| Sep 2019 – Present</span>
+            </p>
+            <ul className="list-disc list-inside mt-1">
+              <li>Design and lead personalized tutoring sessions using interactive explanations to reinforce course concepts.</li>
+              <li>Use MS Excel to manage finances, including tracking payments and invoicing.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
 
 
       {/* volunteering section */}
